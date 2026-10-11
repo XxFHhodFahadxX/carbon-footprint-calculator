@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <circle cx="200" cy="200" r="150" fill="#4aa3df"/>
+  <path d="M120 150c30-40 90-30 100 10s-40 50-30 90-60 30-80-10-20-60 10-90z" fill="#3c9d5d"/>
+  <path d="M250 220c30-20 70 0 60 40s-50 50-70 20 0-50 10-60z" fill="#3c9d5d"/>
+  <path d="M200 40c-20 30-10 60 0 70 20-20 25-50 0-70z" fill="#2e7d4f"/>
+  <text x="200" y="385" text-anchor="middle" font-family="Georgia" font-size="22" fill="#2e7d4f">Go green!</text>
+</svg>
