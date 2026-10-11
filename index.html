@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Carbon Footprint Calculator</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container-fluid px-4 py-3">
+
+    <!-- Main heading -->
+    <header class="text-center my-3">
+      <h1 class="main-title d-inline-block">Carbon Footprint Calculator</h1>
+    </header>
+
+    <!-- Tabs -->
+    <nav class="tab-bar d-flex align-items-center justify-content-between mb-4">
+      <ul class="nav">
+        <li class="nav-item"><a class="nav-link active" href="#form-card">General</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Travel</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Food</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Electronic usage</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Shopping</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Result</a></li>
+      </ul>
+      <a href="#" class="btn btn-green">Home</a>
+    </nav>
+
+    <!-- Intro section -->
+    <section class="row align-items-center justify-content-center my-5">
+      <div class="col-12 col-md-6 text-center text-md-start">
+        <h2>Climate change is real!!</h2>
+        <p class="lead">
+          Every day, our choices about how we travel, what we eat and how much energy we use
+          release greenhouse gases into the atmosphere. These gases trap heat and are warming
+          our planet, leading to rising seas, extreme weather and loss of wildlife.
+        </p>
+        <h4 class="mt-4">Do you know how big your carbon footprint is?</h4>
+        <p>
+          The good news is that small changes add up. Understanding your impact is the first
+          step towards a greener future for you, your community and the next generation.
+        </p>
+        <a href="#form-card" class="btn btn-primary btn-lg" role="button">Calculate</a>
+      </div>
+      <div class="col-12 col-md-5 text-center mt-4 mt-md-0">
+        <img src="images/carbon.svg" alt="Earth with leaves representing sustainability" class="img-fluid hero-img">
+      </div>
+    </section>
+
+    <!-- Card form -->
+    <section class="row justify-content-center mb-5">
+      <div class="col-12 col-md-8 col-lg-5">
+        <div class="card form-card" id="form-card">
+          <div class="card-header text-center text-white">Fill the form below</div>
+          <div class="card-body">
+            <form>
+              <div class="row mb-3 align-items-center">
+                <label for="name" class="col-5 col-form-label">Name</label>
+                <div class="col-7"><input type="text" class="form-control" id="name"></div>
+              </div>
+              <div class="row mb-3 align-items-center">
+                <label for="age" class="col-5 col-form-label">Age</label>
+                <div class="col-7"><input type="number" class="form-control" id="age"></div>
+              </div>
+              <div class="row align-items-center">
+                <label for="country" class="col-5 col-form-label">Country</label>
+                <div class="col-7">
+                  <select class="form-select" id="country">
+                    <option selected>Saudi Arabia</option>
+                    <option>United Arab Emirates</option>
+                    <option>Kuwait</option>
+                    <option>Qatar</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="card-footer text-center">
+            <button type="button" class="btn btn-green me-2">Prev</button>
+            <button type="button" class="btn btn-green">Next</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</body>
+</html>
